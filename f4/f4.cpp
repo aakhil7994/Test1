@@ -15,13 +15,13 @@ int getNum(void); //Prototype for getNum
 int main(void)
 {
     
-    int array[9] = { 1, 2, 3, 4, 5, 6, 7, 8, 9}; //Initialized array for 10 integers
+    int array[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9,10}; //Initialized array for 10 integers
     int index = 0;
 
     printf("Please enter 10 integers, pressing ENTER after each one:\n");
 
     
-    for (int i = 0; i < 10; ++i)
+    for (int i = 0; i < 10; i++)
     {
         
         array[i] = getNum(); //To get number from the user and store it in the current array element
