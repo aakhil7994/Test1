@@ -21,7 +21,7 @@ int main(void)
     printf("Please enter 10 integers, pressing ENTER after each one:\n");
 
     
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 10; ++i)
     {
         
         array[i] = getNum(); //To get number from the user and store it in the current array element
